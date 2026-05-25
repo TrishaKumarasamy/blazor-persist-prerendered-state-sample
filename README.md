@@ -1,17 +1,58 @@
-# Blazor Persist Prerendered State Sample
-Learn how to persist prerendered state in Blazor Web Apps with Syncfusion components. Reduce flicker and improve performance with PersistentComponentState
+# Persist Prerendered State in Blazor Web Apps
 
-## Deployment
+A practical demonstration of persisting prerendered state in Blazor Web Apps using interactive server-side rendering. This sample shows how to eliminate UI flicker and reduce redundant API calls during component hydration by preserving prerendered data through the `PersistentComponentState` API.
 
-### Prerequisites
+## Overview
 
-The samples requires the below requirements to run.
+When a Blazor Web App renders components on the server during prerendering and then transitions to interactive mode on the client, there can be a noticeable flicker as components re-render and re-fetch data. This sample demonstrates two approaches:
 
-* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
-* [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- **With persistent state**: Data is serialized during prerendering and restored on the client, eliminating flicker
+- **Without persistent state**: Data is fetched after interactivity starts, potentially causing UI flicker
 
-### How to Run
+The sample uses Grid components to display order data from the API, making the difference between both approaches immediately visible.
 
-* Clone this repository.
-* Open the PersistPrerenderedState.csproj file using Visual Studio 2022.
-* Press Ctrl + F5 or click the Run button in the toolbar. This will build the application and launch it in your default web browser.
+## Features
+
+- **Side-by-side comparison** of state persistence strategies
+- **Smooth component hydration** with prerendered state
+- **Real-world data fetching** using HTTP client and async operations
+- **Interactive Grid** with proper data binding
+- **Responsive design** with Bootstrap styling
+
+## Prerequisites
+
+- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-persist-prerendered-state-sample.git
+cd blazor-persist-prerendered-state-sample
+```
+
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run
+```
+## References
+
+- [Blazor DataGrid Documentation](https://www.syncfusion.com/blazor-components/blazor-datagrid)
+- [ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core)
+- [Blazor Components](https://www.syncfusion.com/blazor-components)
+
