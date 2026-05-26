@@ -53,6 +53,5 @@ dotnet run
 ## References
 
 - [Blazor DataGrid Documentation](https://www.syncfusion.com/blazor-components/blazor-datagrid)
-- [ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core)
-- [Blazor Components](https://www.syncfusion.com/blazor-components)
+- [Blazor Components](https://blazor.syncfusion.com/documentation/introduction)
 
