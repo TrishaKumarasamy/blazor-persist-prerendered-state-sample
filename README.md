@@ -52,6 +52,6 @@ dotnet run
 ```
 ## References
 
-- [Blazor DataGrid Documentation](https://www.syncfusion.com/blazor-components/blazor-datagrid)
+- [Blazor DataGrid Documentation](https://blazor.syncfusion.com/documentation/datagrid/getting-started-with-web-app)
 - [Blazor Components](https://blazor.syncfusion.com/documentation/introduction)
 
