@@ -1,6 +1,6 @@
-# Persist Prerendered State in Blazor Web Apps
+# Persist Prerendered State in Blazor Web App
 
-A practical demonstration of persisting prerendered state in Blazor Web Apps using interactive server-side rendering. This sample shows how to eliminate UI flicker and reduce redundant API calls during component hydration by preserving prerendered data through the `PersistentComponentState` API.
+A practical demonstration of persisting prerendered state in Blazor Web App using interactive server-side rendering. This sample shows how to eliminate UI flicker and reduce redundant API calls during component hydration by preserving prerendered data through the `PersistentComponentState` API.
 
 ## Overview
 
@@ -52,6 +52,7 @@ dotnet run
 ```
 ## References
 
-- [Blazor DataGrid Documentation](https://blazor.syncfusion.com/documentation/datagrid/getting-started-with-web-app)
 - [Blazor Components](https://blazor.syncfusion.com/documentation/introduction)
+- [Blazor DataGrid Documentation](https://blazor.syncfusion.com/documentation/datagrid/getting-started-with-web-app)
+
 
